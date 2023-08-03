@@ -1,0 +1,126 @@
+body {
+
+    font-family: sans-serif;
+    text-align: center;
+    margin: 150px;
+    background-color: rgb(219, 222, 253);
+    color: rgb(77, 77, 77);
+
+}
+
+.img{
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4 {
+    margin-top: 180px;
+    font-family: Helvetica, sans-serif;
+    color: rgb(56, 50, 77);
+    font-size: 30px;
+    text-align: center;
+}
+
+p{
+    text-indent: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#sobremi {
+    text-align: center;
+}
+
+hr {
+    margin-top: 50px;
+}
+
+#caja {
+    border: 2px solid #440f99c9;
+    background-color: transparent;
+    border-radius: 3px;
+    font-size: 100%;
+    margin: 24px auto 24px 0;
+    padding: 0;
+    color:  #440f99c9;
+    text-align: left;
+  }
+
+#caja a {
+    color: #440f99;
+}
+
+
+h3{
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    text-align: center;
+    background-color: rgb(59, 8, 143);
+}
+
+a[href]{
+    color: rgb(46, 46, 49);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(180, 164, 238, 0.534);
+    color: black;
+  }
+
+th, td {
+    border: 1px solid hwb(0 100% 0%);
+    padding: 8px;
+    text-align: left;
+  }
+
+th {
+    background-color: #9c7cf3;
+  }
+
+td.descripcion {
+    width: 500px;
+  }
+
+/*
+#caja2 ul {
+    list-style-type: none;
+   }
+#caja2 ul li {
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+  }
+#caja2 ul li::before {
+    content: "\2022";
+    color: #336699;
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  entendi el procedimiento de esta forma pero el metodo de abajo el que pude hacer yo solo
+*/
+
+#caja2 ul{
+    list-style-type:circle;
+    margin: 50;
+    padding: 50;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+#caja3 ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#caja4{
+    color: #440f99;
+}

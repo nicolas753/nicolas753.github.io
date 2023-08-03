@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <img src="img.png" class="img ">
+    <h4>NICOLÁS RODRÍGUEZ</h4>
+    <p id="sobremi">
+      Me apasionan temas como son: la tecnología, la informática,
+      la programación y la programación web. Desde que descubrí mi interés por estos campos,
+      mi curiosidad y entusiasmo han crecido exponencialmente.
+    </p>
+
+    <hr />
+
+    <div id="caja">
+      <ul>
+        <li><a href="#experiencia">EDUCACIÓN Y ACTIVIDADES EXTRA-ESCOLARES.</a></li>
+        <li><a href="#habilidades">Habilidades y conocimientos.</a></li>
+        <li><a href="#perfil">Perfiles sociales.</a></li>
+        <li><a href="#contactar">Contactar.</a></li>
+      </ul>
+    </div>
+
+    <h3 id="experiencia">EDUCACIÓN Y ACTIVIDADES EXTRA-ESCOLARES</h3>
+      <table class="primertabla">
+        <thead>
+          <tr>
+            <th>Institución</th>
+            <th>Descripción</th>
+            <th>Desde-hasta</th>
+
+          </tr>
+        </thead>
+        <tbody >
+          <tr>
+            <td>Escuela Técnica Superior UTU</td>
+            <td class="descripcion">Bachiller Tecnológico y Auxiliar Técnico en Informática </td>
+            <td>2015 - 2017</td>
+          </tr>
+        </tbody>
+        <tbody >
+          <tr>
+            <td>UTEC</td>
+            <td class="descripcion">Licenciatura en Tecnologías de la Información (en curso)</td>
+            <td>2019-2023</td>
+          </tr>
+        </tbody>
+        <tbody >
+          <tr>
+            <td>Ceibal</td>
+            <td class="descripcion">Jóvenes a Programar (en curso)</td>
+            <td>2023</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Alianza</td>
+            <td class="descripcion">Becado para curso básico de Ingles</td>
+            <td>2015 - 2016</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>Soriano Joven/Voluntario</td>
+            <td class="descripcion">Creacion y gestion de distintos eventos recreativos/actividades culturales y de apoyo a la
+              sociedad del departamento.</td>
+            <td>2018 - 2020</td>
+          </tr>
+        </tbody>
+      </table>
+    <hr />
+    <h3 id="habilidades">Habilidades y conocimientos</h3>
+    <div id="caja2">
+        <ul >
+          <li>Excel</li>
+          <li>Word</li>
+          <li>PowerPoint</li>
+          <li>Oracle</li>
+          <li>SQL Developer</li>
+        </ul>
+        <ul>
+            <li>MongoDB</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Java/JavaScript</li>
+            <li>MantisBT - TestLink</li>
+        </ul>
+    </div>
+    <hr />
+
+      <h3 id="perfil">Perfil social</h3>
+    <div id="caja3">
+      <p>Tambien puedes encontrarme en:</p>
+      <ul>
+        <li><a href="#" target="_blank">Nicolás Rodríguez</a></li>
+        <li><a href="https://github.com/Nicolas753" target="_blank">Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xDY-B9NM7-I" target="_blank">Twitter</a></li>
+        <li><a href="https://www.linkedin.com/in/nicolás-rodríguez-1ab441238/" target="_blank">Linkedin</a></li>
+      </ul>
+    </div>
+    <hr />
+    <h3 id="contactar">Contactar</h3>
+    <div id="caja4">
+      <form>
+        <p>Para: <input type="text" name="Para"></p>
+        <p>
+          Temática:
+          <select id="tema" name="name">
+            <option value="info">-- Elige un tema --</option>
+            <option value="consulta">Consulta</option>
+            <option value="propuesta">Propuesta</option>
+            <option value="reporte">Reporte</option>
+            <option value="otro">Otro</option>
+          </select>
+        </p>
+        <p>Asunto: <input type="text" name="Asunto"></p>
+        <p>
+          Cuerpo:
+          <textarea id="cuerpo" type="text" name="name" required></textarea>
+        </p>
+        <input type="submit" value="Enviar">
+      </form>
+  </div>
+</body>
+</html>
